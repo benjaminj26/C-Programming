@@ -1,4 +1,4 @@
-// Program to print the entered 2 numbers
+// Program to print the entered 2 numbers //
 
 #include <stdio.h>
 int main()

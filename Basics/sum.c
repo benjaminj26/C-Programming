@@ -1,4 +1,4 @@
-// Program to find the sum of two numbers
+// Program to find the sum of two numbers //
 
 #include <stdio.h>
 int main()
