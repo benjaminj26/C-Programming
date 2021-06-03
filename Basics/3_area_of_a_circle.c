@@ -8,4 +8,5 @@ int main()
     scanf("%f", &r);
     area = (22 * r * r) / 7;
     printf("Area of the circle = %f", area);
+    return 0;
 }
