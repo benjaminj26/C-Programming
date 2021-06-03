@@ -1,12 +1,14 @@
 // Program to find the area of a circle //
 
 #include <stdio.h>
+#define PI 3.14
 int main()
 {
-    float r, area;
+    int r;
+    float area;
     printf("Enter the radius of the circle: ");
-    scanf("%f", &r);
-    area = (22 * r * r) / 7;
+    scanf("%d", &r);
+    area = PI * r * r;
     printf("Area of the circle = %f", area);
     return 0;
 }
