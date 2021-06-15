@@ -10,4 +10,5 @@ int main()
     scanf("%d", &n2);
     g = (n1 > n2) ? n1 : n2;
     printf("Greatest no is: %d", g);
+    return 0;
 }
