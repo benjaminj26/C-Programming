@@ -1,4 +1,4 @@
-// Program to check if n1 > n2 //
+// Program to find the greatest of 2 nos //
 
 #include <stdio.h>
 int main()
@@ -9,6 +9,6 @@ int main()
     printf("Enter the second no: ");
     scanf("%d", &n2);
     g = n1 > n2;
-    printf("Greatest no: %d", g);
+    g == 1 ? printf("%d is greater than %d", n1, n2) : printf("%d is greater than %d", n2, n1);
     return 0;
 }
