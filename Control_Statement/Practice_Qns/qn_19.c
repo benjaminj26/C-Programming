@@ -1,3 +1,14 @@
+/***************************************
+
+CREATOR - REENPHY GEORGE
+
+TITLE - C Program to check Whether a 
+        Character is Vowel or Consonant.
+
+DATE - 9th AUGUST, 2021
+
+***************************************/
+
 #include<stdio.h>
 
 int main()
