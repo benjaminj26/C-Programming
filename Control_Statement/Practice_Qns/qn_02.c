@@ -14,9 +14,9 @@ DATE - 9th AUGUST, 2021
 int main()
 {
     double a , b , c , r1 , r2;
-    printf("Enter the coefficient of x: ");
+    printf("Enter the coefficient of x^2: ");
     scanf("%lf" , &a);
-    printf("Enter the coefficient of y: ");
+    printf("Enter the coefficient of x: ");
     scanf("%lf" , &b);
     printf("Enter the constant term: ");
     scanf("%lf" , &c);
