@@ -16,7 +16,7 @@ int main()
     float unit , charge;
     char name[24];
     printf("Enter customer's name : ");
-    gets(name);
+    fgets(name, 24, stdin);
     printf("Enter the customer ID: ");
     scanf("%d" , &cust_id);
     printf("Enter the total units consumed: ");
@@ -48,7 +48,7 @@ int main()
     printf("\n*********************************************************\n");
     printf("\n\t\tCustomer Name: %s\n" , name);
     printf("\n\t\tCustomer ID: %d\n" , cust_id);
-    printf("\n\t\tTotal units used: %d\n" , unit);
+    printf("\n\t\tTotal units used: %f\n" , unit);
     printf("\n*********************************************************\n");
     printf("\t\tTotal Amount: Rs. %f",charge);
     printf("\n*********************************************************\n");

@@ -12,20 +12,21 @@ DATE - 10th AUGUST, 2021
 
 int main()
 {
-    int roll , m1 , m2 , m3;
+    int roll;
+    float m1 , m2 , m3;
     char name[24];
     printf("Enter student's name : ");
-    gets(name);
+    fgets(name, 24, stdin);
     printf("Enter the roll no: ");
     scanf("%d" , &roll);
     printf("Enter the mark of 1st subject: ");
-    scanf("%d" , &m1);
+    scanf("%f" , &m1);
     printf("Enter the mark of 2nd subject: ");
-    scanf("%d" , &m2);
+    scanf("%f" , &m2);
     printf("Enter the mark of 3rd subject: ");
-    scanf("%d" , &m3);
-    int total = m1 + m2 + m3;
-    int percent = total / 3;
+    scanf("%f" , &m3);
+    float total = m1 + m2 + m3;
+    float percent = total / 3;
     if(percent >= 75)
     {
         printf("\nFirst Class with Distinction\n\n");
