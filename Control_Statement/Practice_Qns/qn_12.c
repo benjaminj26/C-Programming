@@ -13,11 +13,11 @@ DATE - 9th AUGUST, 2021
 int main()
 {
     int a , b , c;
-    printf("Enter the length of first angle: ");
+    printf("First angle: ");
     scanf("%d" , &a);
-    printf("Enter the length of second angle: ");
+    printf("Second angle: ");
     scanf("%d" , &b);
-    printf("Enter the length of third angle: ");
+    printf("Third angle: ");
     scanf("%d" , &c);
     if(a + b + c == 180)
     {
