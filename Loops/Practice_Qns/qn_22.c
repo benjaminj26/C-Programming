@@ -1,3 +1,13 @@
+/*******************************************************************************
+
+CREATOR - REENPHY GEORGE
+
+TITLE - C program to print the number pattern.
+
+DATE - 24th AUGUST, 2021
+
+*******************************************************************************/
+
 #include<stdio.h>
 int main()
 {
