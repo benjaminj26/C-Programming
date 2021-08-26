@@ -21,6 +21,6 @@ DATE - 24th AUGUST, 2021
             sum+=i;
         }
     }
-    printf("The sum: %d",sum);
+    printf("\nThe sum: %d",sum);
     return 0;
  }
