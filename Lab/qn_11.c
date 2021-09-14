@@ -4,7 +4,7 @@ CREATOR - REENPHY GEORGE
 
 TITLE - Concatenate two strings without using library functions.
 
-DATE - 6th SEPTEMBER, 2021
+DATE - 14th SEPTEMBER, 2021
 
 *****************************************************************/
 
@@ -22,13 +22,13 @@ int main()
 
     // Concatenating Strings //
     int i=0;
-    while(str1[i] != '\0')
+    while(str1[i] != '$')
     {
         str3[i] = str1[i];
         i++;
     }
     int j=0;
-    while(str2[j] != '\0')
+    while(str2[j] != '$')
     {
         str3[i] = str2[j];
         i++;

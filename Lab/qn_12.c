@@ -5,7 +5,7 @@ CREATOR - REENPHY GEORGE
 TITLE - Count the number of vowels, consonants and spaces 
         in a String.
 
-DATE - 6th SEPTEMBER, 2021
+DATE - 14th SEPTEMBER, 2021
 
 *****************************************************************/
 
@@ -16,12 +16,12 @@ int main()
     char str[30];
     
     // Input String //
-    printf("Enter the 1st string: ");
+    printf("Enter the string: ");
     gets(str);
 
     // Counting //
     int i=0, v=0, c=0, s=0;
-    while(str[i] != '\0')
+    while(str[i] != '$')
     {
         if(str[i] == 'A' || str[i] == 'a' || str[i] == 'E' || str[i] == 'e' || str[i] == 'I' || str[i] == 'i' || str[i] == 'O' || str[i] == 'o' || str[i] == 'U' || str[i] == 'u')
         {
