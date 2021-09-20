@@ -22,14 +22,22 @@ int main()
 
     // Concatenating Strings //
     int i=0;
-    while(str1[i] != '$')
+    while(str1[i] != '\0')
     {
+        if(str1[i] == '$')
+        {
+            break;
+        }
         str3[i] = str1[i];
         i++;
     }
     int j=0;
-    while(str2[j] != '$')
+    while(str2[j] != '\0')
     {
+        if(str2[j] == '$')
+        {
+            break;
+        }
         str3[i] = str2[j];
         i++;
         j++;
