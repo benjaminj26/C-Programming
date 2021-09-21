@@ -14,7 +14,7 @@ DATE - 14th SEPTEMBER, 2021
 void reverse(char str[])
 {
     int len = strlen(str);
-    int i=0 , j=len-1 , flag=0;
+    int i=0 , j=len-1;
     while(i <= j)
     {
         char temp = str[i];
@@ -23,12 +23,13 @@ void reverse(char str[])
         i++;
         j--;
     }
-    printf("Reversed String: %s" , str);
+    printf("Reversed String: %s\n" , str);
 }
 int main()
 {
     char str[30];
     printf("Enter the string: ");
     gets(str);
-    reverse(str);    
+    reverse(str);  
+    return 0;  
 }
