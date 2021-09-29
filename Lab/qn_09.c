@@ -2,7 +2,7 @@
 
 CREATOR - REENPHY GEORGE
 
-TITLE - Binary Sort
+TITLE - Bubble Sort
 
 DATE - 1st SEPTEMBER, 2021
 
