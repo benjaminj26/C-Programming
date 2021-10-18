@@ -1,3 +1,13 @@
+/*******************************************************************************
+
+CREATOR - REENPHY GEORGE
+
+TITLE - C program to display triangle pattern.
+
+DATE - 18th October, 2021
+
+*******************************************************************************/
+
 #include<stdio.h>
 int main()
 {
